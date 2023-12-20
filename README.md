@@ -1,0 +1,1 @@
+./fbt fap_blink

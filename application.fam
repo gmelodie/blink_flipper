@@ -1,0 +1,8 @@
+App(
+    appid="blink",
+    name="Blink",
+    apptype=FlipperAppType.EXTERNAL,
+    entry_point="blink_main",
+    requires=["gui"],
+    stack_size=1 * 1024,
+)
