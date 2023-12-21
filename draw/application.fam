@@ -1,0 +1,8 @@
+App(
+    appid="draw",
+    name="Draw Screen",
+    apptype=FlipperAppType.EXTERNAL,
+    entry_point="draw_main",
+    requires=["gui"],
+    stack_size=1 * 1024,
+)
